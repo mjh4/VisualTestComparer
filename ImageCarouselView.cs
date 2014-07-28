@@ -33,11 +33,11 @@ namespace VisualTestComparer
 		string[] ImageFilePaths {
 			get {
 				return new [] {
-					"/Users/alan/test.png",
-					"/Users/alan/test.png",
-					"/Users/alan/test.png",
-					"/Users/alan/test.png",
-					"/Users/alan/test.png",
+					"/Users/Administrator/Projects/VisualTestComparer/Resources/test.png",
+					"/Users/Administrator/Projects/VisualTestComparer/Resources/test.png",
+					"/Users/Administrator/Projects/VisualTestComparer/Resources/test.png",
+					"/Users/Administrator/Projects/VisualTestComparer/Resources/test.png",
+					"/Users/Administrator/Projects/VisualTestComparer/Resources/test.png",
 				};
 			}
 		}

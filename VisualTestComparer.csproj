@@ -81,13 +81,24 @@
     </Compile>
     <Compile Include="ImageSelectorView.cs" />
     <Compile Include="ImageCarouselView.cs" />
+    <Compile Include="ViewSnippets.cs" />
+    <Compile Include="ImageTest.cs" />
+    <Compile Include="ImageTestCell.cs" />
+    <Compile Include="ImageTestCellController.cs" />
+    <Compile Include="ImageTestCell.designer.cs">
+      <DependentUpon>ImageTestCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainWindow.xib" />
     <InterfaceDefinition Include="MainMenu.xib" />
+    <InterfaceDefinition Include="ImageTestCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\test.png" />
+  </ItemGroup>
 </Project>

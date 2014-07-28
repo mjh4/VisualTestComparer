@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3215116F0000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A61E0D0000000000000000 /* Cocoa.framework */; };
+		31E22E530000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35733AF10000000000000000 /* Foundation.framework */; };
+		273294E40000000000000000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC3A1820000000000000000 /* MainWindow.xib */; };
+		719235600000000000000000 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAA2FF400000000000000000 /* MainMenu.xib */; };
+		2A90BE660000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E21CB040000000000000000 /* Info.plist */; };
+		A774CD800000000000000000 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E08597600000000000000000 /* test.png */; };
+		FB76E3700000000000000000 /* MainWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = 13487AD50000000000000000 /* MainWindow.h */; };
+		2308DEF20000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2699EB900000000000000000 /* MainWindow.m */; };
+		29F815120000000000000000 /* MainWindowController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2D8921B00000000000000000 /* MainWindowController.h */; };
+		2D563E940000000000000000 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E74B320000000000000000 /* MainWindowController.m */; };
+		32965FF30000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 36276C910000000000000000 /* AppDelegate.h */; };
+		2270359E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2601423C0000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2209CE550000000000000000 /* VisualTestComparer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "VisualTestComparer.app"; path = "VisualTestComparer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A61E0D0000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		35733AF10000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2AC3A1820000000000000000 /* MainWindow.xib */ = {isa = PBXFileReference; name = "MainWindow.xib"; path = "MainWindow.xib"; sourceTree = "<group>"; };
+		AAA2FF400000000000000000 /* MainMenu.xib */ = {isa = PBXFileReference; name = "MainMenu.xib"; path = "MainMenu.xib"; sourceTree = "<group>"; };
+		2E21CB040000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		E08597600000000000000000 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "test.png"; path = "test.png"; sourceTree = "<group>"; };
+		13487AD50000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
+		2699EB900000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
+		2D8921B00000000000000000 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindowController.h"; path = "MainWindowController.h"; sourceTree = "<group>"; };
+		30E74B320000000000000000 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindowController.m"; path = "MainWindowController.m"; sourceTree = "<group>"; };
+		36276C910000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2601423C0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3411F0870000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3215116F0000000000000000 /* Cocoa.framework in Frameworks */,
+				31E22E530000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142B62150000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3EC516610000000000000000 /* VisualTestComparer */,
+				1EDE87EF0000000000000000 /* Frameworks */,
+				9783C3B00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9783C3B00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2209CE550000000000000000 /* VisualTestComparer.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1EDE87EF0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35733AF10000000000000000 /* Foundation.framework */,
+				35A61E0D0000000000000000 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3EC516610000000000000000 /* VisualTestComparer */ = {
+			isa = PBXGroup;
+			children = (
+				36276C910000000000000000 /* AppDelegate.h */,
+				2E21CB040000000000000000 /* Info.plist */,
+				AAA2FF400000000000000000 /* MainMenu.xib */,
+				13487AD50000000000000000 /* MainWindow.h */,
+				2AC3A1820000000000000000 /* MainWindow.xib */,
+				2D8921B00000000000000000 /* MainWindowController.h */,
+				E08597600000000000000000 /* test.png */,
+				24EAD6CF0000000000000000 /* Supporting Files */,
+			);
+			name = "VisualTestComparer";
+			sourceTree = "<group>";
+		};
+		24EAD6CF0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2601423C0000000000000000 /* AppDelegate.m */,
+				2699EB900000000000000000 /* MainWindow.m */,
+				30E74B320000000000000000 /* MainWindowController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F578D80000000000000000 /* VisualTestComparer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1756A87B0000000000000000 /* Build configuration list for PBXNativeTarget "VisualTestComparer" */;
+			buildPhases = (
+				223CB1710000000000000000 /* Sources */,
+				3411F0870000000000000000 /* Frameworks */,
+				B2750FC00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VisualTestComparer";
+			productName = "VisualTestComparer";
+			productReference = 2209CE550000000000000000 /* VisualTestComparer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A4252FE0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CA382A100000000000000000 /* Build configuration list for PBXProject "VisualTestComparer" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 142B62150000000000000000;
+			productRefGroup = 9783C3B00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F578D80000000000000000 /* VisualTestComparer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2750FC00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273294E40000000000000000 /* MainWindow.xib in Resources */,
+				719235600000000000000000 /* MainMenu.xib in Resources */,
+				2A90BE660000000000000000 /* Info.plist in Resources */,
+				A774CD800000000000000000 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223CB1710000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB76E3700000000000000000 /* MainWindow.h in Sources */,
+				2308DEF20000000000000000 /* MainWindow.m in Sources */,
+				29F815120000000000000000 /* MainWindowController.h in Sources */,
+				2D563E940000000000000000 /* MainWindowController.m in Sources */,
+				32965FF30000000000000000 /* AppDelegate.h in Sources */,
+				2270359E0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FB44600000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = MonoMac;
+		};
+		1F05CC700000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "VisualTestComparer";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoMac;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA382A100000000000000000 /* Build configuration list for PBXProject "VisualTestComparer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FB44600000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+		1756A87B0000000000000000 /* Build configuration list for PBXNativeTarget "VisualTestComparer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05CC700000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A4252FE0000000000000000 /* Project object */;
+}

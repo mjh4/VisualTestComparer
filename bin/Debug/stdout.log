@@ -1,0 +1,405 @@
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1
+Button_AttributedTitle
+C79DB8F394D4AADD9F573A5C6A8652607A716559
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/C79DB8F394D4AADD9F573A5C6A8652607A716559.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/C79DB8F394D4AADD9F573A5C6A8652607A716559.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/C79DB8F394D4AADD9F573A5C6A8652607A716559.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+Button_NoColor
+E583922129A6DA78FD3CD462657CF6F53724218A
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/E583922129A6DA78FD3CD462657CF6F53724218A.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/E583922129A6DA78FD3CD462657CF6F53724218A.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/E583922129A6DA78FD3CD462657CF6F53724218A.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+DatePicker_Countdown
+22989138147F2BA06969F57760A6DD655881F5AF
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/22989138147F2BA06969F57760A6DD655881F5AF.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/22989138147F2BA06969F57760A6DD655881F5AF.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/22989138147F2BA06969F57760A6DD655881F5AF.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+DatePicker_Time
+30573557D34E13CEE48298C398BD78CF3E2289A8
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/30573557D34E13CEE48298C398BD78CF3E2289A8.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/30573557D34E13CEE48298C398BD78CF3E2289A8.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/30573557D34E13CEE48298C398BD78CF3E2289A8.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+GLKView_WithMultisample
+073B9C43876D09C61D1311F8C0B5B4291363774A
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/073B9C43876D09C61D1311F8C0B5B4291363774A.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/073B9C43876D09C61D1311F8C0B5B4291363774A.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/073B9C43876D09C61D1311F8C0B5B4291363774A.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Label_AttributedString
+FFA684645FBED4F0C55A05CCAD705F59963DF3F1
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/FFA684645FBED4F0C55A05CCAD705F59963DF3F1.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/FFA684645FBED4F0C55A05CCAD705F59963DF3F1.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/FFA684645FBED4F0C55A05CCAD705F59963DF3F1.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Label_AttributedString_ContentElement
+B3106347C28F6F13C99944B6062DA7B52348EBC0
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/B3106347C28F6F13C99944B6062DA7B52348EBC0.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/B3106347C28F6F13C99944B6062DA7B52348EBC0.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/B3106347C28F6F13C99944B6062DA7B52348EBC0.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Label_AttributedString_ContentElementAndContentAttribute
+8EBD3F3DB0F30B2B4D82365DCBB3893C55692F0D
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/8EBD3F3DB0F30B2B4D82365DCBB3893C55692F0D.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/8EBD3F3DB0F30B2B4D82365DCBB3893C55692F0D.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/8EBD3F3DB0F30B2B4D82365DCBB3893C55692F0D.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Label_StringElement
+CB43FD868EB9DA125D4888A1194C55049A1822B4
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/CB43FD868EB9DA125D4888A1194C55049A1822B4.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/CB43FD868EB9DA125D4888A1194C55049A1822B4.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/CB43FD868EB9DA125D4888A1194C55049A1822B4.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Label_TextStyleHeadline
+3E494ADD906F5DE06D5CB24668B1B21A79FE3404
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/3E494ADD906F5DE06D5CB24668B1B21A79FE3404.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/3E494ADD906F5DE06D5CB24668B1B21A79FE3404.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/3E494ADD906F5DE06D5CB24668B1B21A79FE3404.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+NavigationBar_WithBarTint
+FB9407B0F3EEA1950A0D2364E1D024C5C28677EC
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/FB9407B0F3EEA1950A0D2364E1D024C5C28677EC.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/FB9407B0F3EEA1950A0D2364E1D024C5C28677EC.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/FB9407B0F3EEA1950A0D2364E1D024C5C28677EC.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Segment
+FE5AB759A0F0F1897EE7850D9230F7150C173C1A
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/FE5AB759A0F0F1897EE7850D9230F7150C173C1A.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/FE5AB759A0F0F1897EE7850D9230F7150C173C1A.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/FE5AB759A0F0F1897EE7850D9230F7150C173C1A.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Segment_WithImage
+E2428311F9AD1F6128059D55F4BB56ECD4272325
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/E2428311F9AD1F6128059D55F4BB56ECD4272325.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/E2428311F9AD1F6128059D55F4BB56ECD4272325.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/E2428311F9AD1F6128059D55F4BB56ECD4272325.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TabBar_WithItemWithBadge
+79D91E3868D088DC3C523C92B47BC86C5FDC7C57
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/79D91E3868D088DC3C523C92B47BC86C5FDC7C57.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/79D91E3868D088DC3C523C92B47BC86C5FDC7C57.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/79D91E3868D088DC3C523C92B47BC86C5FDC7C57.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TabBarItem_WithOffset
+2547A51C1A5E7663F767E0BBB44A86F89437AC81
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/2547A51C1A5E7663F767E0BBB44A86F89437AC81.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/2547A51C1A5E7663F767E0BBB44A86F89437AC81.png
+False
+Master Failed
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/2547A51C1A5E7663F767E0BBB44A86F89437AC81.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableViewCell_WithTextAndDetail
+8EBD349970763502E314E995830C1355B91426C1
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/8EBD349970763502E314E995830C1355B91426C1.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/8EBD349970763502E314E995830C1355B91426C1.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/8EBD349970763502E314E995830C1355B91426C1.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableViewCell_WithImageView
+3835C5745865D3D28C9FA23F1E0066504D4C1CC4
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/3835C5745865D3D28C9FA23F1E0066504D4C1CC4.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/3835C5745865D3D28C9FA23F1E0066504D4C1CC4.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/3835C5745865D3D28C9FA23F1E0066504D4C1CC4.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableViewCell_InnerLabel
+8054A97481C51BA2A7C13E12C890D27304CDFCC1
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/8054A97481C51BA2A7C13E12C890D27304CDFCC1.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/8054A97481C51BA2A7C13E12C890D27304CDFCC1.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/8054A97481C51BA2A7C13E12C890D27304CDFCC1.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableViewCell_ProtoTypes_CustomCellContent
+639422B44B6F4F9221CE801C8EE4B16A3439CC68
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/639422B44B6F4F9221CE801C8EE4B16A3439CC68.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/639422B44B6F4F9221CE801C8EE4B16A3439CC68.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/639422B44B6F4F9221CE801C8EE4B16A3439CC68.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableView_Prototypes
+4F3F7E978D71129C7FFD48EC577F1F51DE72B7EC
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/4F3F7E978D71129C7FFD48EC577F1F51DE72B7EC.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/4F3F7E978D71129C7FFD48EC577F1F51DE72B7EC.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/4F3F7E978D71129C7FFD48EC577F1F51DE72B7EC.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableView_Prototypes_HeaderFooter
+98B3682C60BCC0759ED8D01CFAD9F2EA8E98EDA5
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/98B3682C60BCC0759ED8D01CFAD9F2EA8E98EDA5.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/98B3682C60BCC0759ED8D01CFAD9F2EA8E98EDA5.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/98B3682C60BCC0759ED8D01CFAD9F2EA8E98EDA5.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableView_StaticCells
+BD03CD2402E849AC5F80D199208331E5766D0FD3
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/BD03CD2402E849AC5F80D199208331E5766D0FD3.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/BD03CD2402E849AC5F80D199208331E5766D0FD3.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/BD03CD2402E849AC5F80D199208331E5766D0FD3.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TableView_WithHeaderAndFooter
+98C567507010C11A572338D784B75DF2BAACAE96
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/98C567507010C11A572338D784B75DF2BAACAE96.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/98C567507010C11A572338D784B75DF2BAACAE96.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/98C567507010C11A572338D784B75DF2BAACAE96.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+TextView_WithFont
+7B738EDBED326AD681A704C703A26E70A5677793
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/7B738EDBED326AD681A704C703A26E70A5677793.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/7B738EDBED326AD681A704C703A26E70A5677793.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/7B738EDBED326AD681A704C703A26E70A5677793.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+Toolbar_WithItems
+93E158DCF8EE0C835AECA8D40C3BF189D1F8F46F
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/93E158DCF8EE0C835AECA8D40C3BF189D1F8F46F.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/93E158DCF8EE0C835AECA8D40C3BF189D1F8F46F.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/93E158DCF8EE0C835AECA8D40C3BF189D1F8F46F.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+ViewWithConstraints
+BDD4C9DDF22150A163556DFA4EB1CD86819F02B4
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/BDD4C9DDF22150A163556DFA4EB1CD86819F02B4.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/BDD4C9DDF22150A163556DFA4EB1CD86819F02B4.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/BDD4C9DDF22150A163556DFA4EB1CD86819F02B4.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+ViewWithSimulatedStatusBar
+DB721C9FE12DC2BC49E5BC64ED04BECB1AD14144
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/DB721C9FE12DC2BC49E5BC64ED04BECB1AD14144.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/DB721C9FE12DC2BC49E5BC64ED04BECB1AD14144.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/DB721C9FE12DC2BC49E5BC64ED04BECB1AD14144.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+ViewInsideView
+43955AC3929ACD8681F5E33D07B3EE016EEBC375
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/43955AC3929ACD8681F5E33D07B3EE016EEBC375.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/43955AC3929ACD8681F5E33D07B3EE016EEBC375.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/43955AC3929ACD8681F5E33D07B3EE016EEBC375.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+ViewWithUnresolvableConstraint
+47582035F6DB1497DC20AA12B14877F561F9730B
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/47582035F6DB1497DC20AA12B14877F561F9730B.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/47582035F6DB1497DC20AA12B14877F561F9730B.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/47582035F6DB1497DC20AA12B14877F561F9730B.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+WebviewWithConstraints
+ECAEF95C948A0370668C11762BE80C09A8211319
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/ECAEF95C948A0370668C11762BE80C09A8211319.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/ECAEF95C948A0370668C11762BE80C09A8211319.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/ECAEF95C948A0370668C11762BE80C09A8211319.png
+False
+Master Failed
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail
+WindowWithSegmentedControl
+78AB7A0727DE343A35A8715E0DF3AEAAFD505EBD
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/6.1/OriginalPhone/78AB7A0727DE343A35A8715E0DF3AEAAFD505EBD.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.0/OriginalPhone/78AB7A0727DE343A35A8715E0DF3AEAAFD505EBD.png
+True
+Master Valid
+Master path: /Users/Administrator/Projects/VisualTestComparer/VisualValidation/Masters/7.1/OriginalPhone/78AB7A0727DE343A35A8715E0DF3AEAAFD505EBD.png
+True
+Master Valid
+/Users/Administrator/Projects/VisualTestComparer/VisualValidation/VisualFailures/7.0
+We did not have a visual fail

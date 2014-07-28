@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoMac.Foundation;
 using MonoMac.AppKit;
+using MonoMac.QTKit;
+using System.Runtime.InteropServices;
+using System.Xml.Linq;
+using System.Security.Cryptography;
 
 namespace VisualTestComparer
 {
@@ -51,9 +55,10 @@ namespace VisualTestComparer
 		{
 			base.AwakeFromNib ();
 
+			CreateXmlViewer ();
 			CreateImageSelectorView ();
 			CreateImageCarouselView ();
-			CreateXmlViewer ();
+
 		}
 
 		void CreateImageSelectorView ()
@@ -66,21 +71,27 @@ namespace VisualTestComparer
 				HasVerticalScroller = true,
 			};
 
-			this.ImageSelectorDelegate = new ImageSelectorDelegate ();
+		
 			this.ImageSelectorDataSource = new ImageSelectorDataSource ();
 			this.ImageSelectorView = new ImageSelectorView {
 				DataSource = ImageSelectorDataSource,
-				Delegate = ImageSelectorDelegate,
+			//	Delegate = ImageSelectorDelegate,
 				Frame = scroller.Bounds
 			};
+
+			this.ImageSelectorDelegate = new ImageSelectorDelegate (XmlViewer, ImageSelectorView);
+
+			this.ImageSelectorView.Delegate = ImageSelectorDelegate;
 
 			var column = new NSTableColumn {
 				Width = scroller.Frame.Width
 			};
 			ImageSelectorView.AddColumn (column);
-
+			ImageSelector.AcceptsTouchEvents = true;
 			scroller.DocumentView = ImageSelectorView;
 			ImageSelector.AddSubview (scroller);
+			//ImageSelectorView.AcceptsTouchEvents = true;
+			//ImageSelectorView.DidClickTableColumn += changeXMLView;
 		}
 
 		void CreateImageCarouselView ()
@@ -120,6 +131,8 @@ namespace VisualTestComparer
 				AutoresizesSubviews = true,
 				AutoresizingMask = NSViewResizingMask.HeightSizable | NSViewResizingMask.WidthSizable,
 			};
+
+			/*
 			XmlViewer.StringValue = string.Concat (new [] {
 				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
 				Environment.NewLine,
@@ -141,10 +154,24 @@ namespace VisualTestComparer
 				Environment.NewLine,
 				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
 			});
-
+			*/
 			scroller.DocumentView = XmlViewer;
 			CodeViewer.AddSubview (scroller);
 		}
+
+		/*
+		void changeXMLView(object sender, EventArgs e)
+		{
+			ImageTest test = ImageSelectorDataSource.Images [(ImageSelectorView.SelectedRow)];
+			XElement element = test.snippet.GetValue (null, null) as XElement;
+
+			XmlViewer.StringValue = element.ToString(); 
+
+		}
+	*/
+
+
+
 
 		#endregion
 	}
