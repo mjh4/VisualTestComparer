@@ -10,6 +10,11 @@ namespace VisualTestComparer
 	{
 		MainWindowController mainWindowController;
 
+		public ImageSelectorView selectorView {
+			get;
+			set;
+		}
+
 		public AppDelegate ()
 		{
 		}

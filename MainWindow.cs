@@ -57,7 +57,7 @@ namespace VisualTestComparer
 
 			CreateXmlViewer ();
 			CreateImageSelectorView ();
-			CreateImageCarouselView ();
+		//	CreateImageCarouselView ();
 
 		}
 
@@ -71,30 +71,44 @@ namespace VisualTestComparer
 				HasVerticalScroller = true,
 			};
 
+			var imageScroller = new NSScrollView (ImageSelector.Bounds) {
+				AutohidesScrollers = true,
+				AutoresizesSubviews = true,
+				AutoresizingMask = NSViewResizingMask.HeightSizable | NSViewResizingMask.WidthSizable,
+				HasHorizontalScroller = true,
+				HasVerticalScroller = true,
+			};
 		
-			this.ImageSelectorDataSource = new ImageSelectorDataSource ();
+			//this.ImageSelectorDataSource = new ImageSelectorDataSource ();
 			this.ImageSelectorView = new ImageSelectorView {
-				DataSource = ImageSelectorDataSource,
+			//	DataSource = ImageSelectorDataSource,
 			//	Delegate = ImageSelectorDelegate,
 				Frame = scroller.Bounds
 			};
 
-			this.ImageSelectorDelegate = new ImageSelectorDelegate (XmlViewer, ImageSelectorView);
+			this.ImageSelectorDelegate = new ImageSelectorDelegate (XmlViewer, ImageSelectorView, ImageViewer);
+			this.ImageSelectorDataSource = new ImageSelectorDataSource (ImageSelectorDelegate.NumberOfItems ());
 
 			this.ImageSelectorView.Delegate = ImageSelectorDelegate;
-
+			this.ImageSelectorView.DataSource = ImageSelectorDataSource;
 			var column = new NSTableColumn {
-				Width = scroller.Frame.Width
+				Width = scroller.Frame.Width,
+				//HeaderCell = new NSTextFieldCell("Item")
 			};
+					
 			ImageSelectorView.AddColumn (column);
 			ImageSelector.AcceptsTouchEvents = true;
 			scroller.DocumentView = ImageSelectorView;
 			ImageSelector.AddSubview (scroller);
 			//ImageSelectorView.AcceptsTouchEvents = true;
 			//ImageSelectorView.DidClickTableColumn += changeXMLView;
+
+		//	ImageViewer.AddSubview (imageScroller);
+
+
 		}
 
-		void CreateImageCarouselView ()
+	/*	void CreateImageCarouselView ()
 		{
 			var scroller = new NSScrollView (ImageViewer.Bounds) {
 				AutohidesScrollers = true,
@@ -115,7 +129,7 @@ namespace VisualTestComparer
 			ImageViewer.AddSubview (scroller);
 			ImageCarouselView.ReloadData ();
 		}
-
+*/
 		void CreateXmlViewer ()
 		{
 			var scroller = new NSScrollView (CodeViewer.Bounds) {
@@ -131,30 +145,7 @@ namespace VisualTestComparer
 				AutoresizesSubviews = true,
 				AutoresizingMask = NSViewResizingMask.HeightSizable | NSViewResizingMask.WidthSizable,
 			};
-
-			/*
-			XmlViewer.StringValue = string.Concat (new [] {
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-				Environment.NewLine,
-				"Asd asd sdf fdghfh ghj ghj dfgsd fg",
-			});
-			*/
+				
 			scroller.DocumentView = XmlViewer;
 			CodeViewer.AddSubview (scroller);
 		}
