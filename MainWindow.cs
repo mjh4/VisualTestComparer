@@ -55,14 +55,16 @@ namespace VisualTestComparer
 		{
 			base.AwakeFromNib ();
 
+			//Need to create the XmlView first to pass it
+			// to the ImageSelectorDelegate
 			CreateXmlViewer ();
 			CreateImageSelectorView ();
-		//	CreateImageCarouselView ();
 
 		}
 
 		void CreateImageSelectorView ()
 		{
+			// Create the Image Selector Scroller
 			var scroller = new NSScrollView (ImageSelector.Bounds) {
 				AutohidesScrollers = true,
 				AutoresizesSubviews = true,
@@ -71,6 +73,7 @@ namespace VisualTestComparer
 				HasVerticalScroller = true,
 			};
 
+			// Create the Image Viewer scroller
 			var imageScroller = new NSScrollView (ImageSelector.Bounds) {
 				AutohidesScrollers = true,
 				AutoresizesSubviews = true,
@@ -79,59 +82,42 @@ namespace VisualTestComparer
 				HasVerticalScroller = true,
 			};
 		
-			//this.ImageSelectorDataSource = new ImageSelectorDataSource ();
+			//Create the Image Selector View
 			this.ImageSelectorView = new ImageSelectorView {
-			//	DataSource = ImageSelectorDataSource,
-			//	Delegate = ImageSelectorDelegate,
 				Frame = scroller.Bounds
 			};
 
+			// Create the ImageSelectorDelegate, pass it all three views
 			this.ImageSelectorDelegate = new ImageSelectorDelegate (XmlViewer, ImageSelectorView, ImageViewer);
+
+			// Create the Data Source for the ImageSelector, pass it the number of items
 			this.ImageSelectorDataSource = new ImageSelectorDataSource (ImageSelectorDelegate.NumberOfItems ());
 
+			// Assign the Delegate and DataSource 
 			this.ImageSelectorView.Delegate = ImageSelectorDelegate;
 			this.ImageSelectorView.DataSource = ImageSelectorDataSource;
+
+			//Create the column for the Image Selector 
 			var column = new NSTableColumn {
 				Width = scroller.Frame.Width,
-				//HeaderCell = new NSTextFieldCell("Item")
 			};
-					
+
+			// Add the column to the Image Selector View 
 			ImageSelectorView.AddColumn (column);
+			// Allow the selector to accept touch events
 			ImageSelector.AcceptsTouchEvents = true;
+
+			// Connect the ImageSelectorView to the xib
 			scroller.DocumentView = ImageSelectorView;
 			ImageSelector.AddSubview (scroller);
-			//ImageSelectorView.AcceptsTouchEvents = true;
-			//ImageSelectorView.DidClickTableColumn += changeXMLView;
 
-		//	ImageViewer.AddSubview (imageScroller);
 
 
 		}
-
-	/*	void CreateImageCarouselView ()
-		{
-			var scroller = new NSScrollView (ImageViewer.Bounds) {
-				AutohidesScrollers = true,
-				AutoresizesSubviews = true,
-				AutoresizingMask = NSViewResizingMask.HeightSizable | NSViewResizingMask.WidthSizable,
-				HasHorizontalScroller = true,
-				HasVerticalScroller = false,
-			};
-
-			ImageCarouselViewDataSource = new ImageCarouselViewDataSource ();
-			ImageCarouselView = new ImageCarouselView {
-				AutoresizingMask = NSViewResizingMask.WidthSizable,
-				DataSource = ImageCarouselViewDataSource,
-				Frame = ImageViewer.Bounds,
-			};
-
-			scroller.DocumentView = ImageCarouselView;
-			ImageViewer.AddSubview (scroller);
-			ImageCarouselView.ReloadData ();
-		}
-*/
+			
 		void CreateXmlViewer ()
 		{
+			// Create Scroller for XML
 			var scroller = new NSScrollView (CodeViewer.Bounds) {
 				AutohidesScrollers = true,
 				AutoresizesSubviews = true,
@@ -141,25 +127,18 @@ namespace VisualTestComparer
 				Frame = CodeViewer.Bounds,
 			};
 
+			// Have the XML displayed in a NSTextField
 			XmlViewer = new NSTextField (scroller.Bounds) {
 				AutoresizesSubviews = true,
 				AutoresizingMask = NSViewResizingMask.HeightSizable | NSViewResizingMask.WidthSizable,
 			};
 				
+		  // Connect the view to the xib
 			scroller.DocumentView = XmlViewer;
 			CodeViewer.AddSubview (scroller);
 		}
 
-		/*
-		void changeXMLView(object sender, EventArgs e)
-		{
-			ImageTest test = ImageSelectorDataSource.Images [(ImageSelectorView.SelectedRow)];
-			XElement element = test.snippet.GetValue (null, null) as XElement;
 
-			XmlViewer.StringValue = element.ToString(); 
-
-		}
-	*/
 
 
 

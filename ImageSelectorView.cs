@@ -29,36 +29,42 @@ namespace VisualTestComparer
 
 	class ImageSelectorDelegate : NSTableViewDelegate
 	{
+		// The view for the ImageTest names
 		public ImageSelectorView theView {
 			get;
 			set;
 		}
 
-
+		// Contains all the ImageTests
 		public List<ImageTest> Images {
 			get; set;
 		}
 
+		// The View for 
 		public NSTextField XmlViewer {
 			get;
 			set;
 		}
 
+		// Holds strings of the iOS versions tested
 		public Queue<string> iOSVersions {
 			get;
 			set;
 		}
 
+		// View for displaying images
 		public ImageTestView ImageTestView {
 			get;
 			set;
 		}
 
+		// Delegate for ImageTestView
 		public ImageTestViewDelegate ImageTestViewDelegate {
 			get;
 			set;
 		}
 
+		//Data Source for ImageTestView
 		public ImageTestViewDataSource ImageTestViewDataSource {
 			get;
 			set;
